@@ -35,4 +35,19 @@ Una vez realizado el etl, con mis datos limpios, procedi a hacer el proceso de *
 varias funciones mas que se pidieron, una vez realizado todo tuve que crear una **API** local que me permita interactuar con las funciones realizadas con los datos, 
 utilice **render** para levantar un servicio web en linea, donde cualquier persona puede interactuar con los datos y obtener informacion.:boom:
 
+# Funciones a realizar
+_**userdata(User_id: str):**_ Esta función toma como entrada el ID de un usuario y devuelve la cantidad de dinero gastado por ese usuario, 
+el porcentaje de recomendación basado en las revisiones (reviews.recommend) y la cantidad de items relacionados con ese usuario.
 
+_**countreviews(YYYY-MM-DD y YYYY-MM-DD: str):**_ Esta función toma dos fechas en formato YYYY-MM-DD como entrada y devuelve la cantidad de usuarios que realizaron reviews 
+entre esas dos fechas, así como el porcentaje de recomendación basado en las reviews realizadas durante ese período.
+
+_**genre(género: str):**_ Esta función toma un género como entrada y devuelve la posición en la que se encuentra ese género en un ranking analizado bajo la columna PlayTimeForever.
+
+_**userforgenre(género: str):**_ Esta función toma un género como entrada y devuelve los cinco usuarios con más horas de juego en ese género, junto con sus URL de usuario (del juego) y sus IDs de usuario.
+
+_**developer(desarrollador: str):**_ Esta función toma como entrada el nombre de una empresa desarrolladora y devuelve la cantidad de items (juegos o contenido) producidos por esa empresa por año, 
+así como el porcentaje de contenido gratuito en esos items.
+
+_**sentiment_analysis(año: int):**_ Esta función toma un año como entrada y devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados 
+con un análisis de sentimiento para ese año en particular.
