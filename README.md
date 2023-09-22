@@ -51,3 +51,9 @@ así como el porcentaje de contenido gratuito en esos items.
 
 _**sentiment_analysis(año: int):**_ Esta función toma un año como entrada y devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados 
 con un análisis de sentimiento para ese año en particular.
+
+# API
+link al entorno web de la api realizada para poder realizar consultas: https://prueba-api-gj31.onrender.com/docs#
+
+# VIDEO 
+link al video explicativo del proyecto y sus funciones: https://www.youtube.com/watch?v=-e8pdmXf3C4
