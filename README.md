@@ -8,10 +8,14 @@ terminada la investigacion.
 
 # Contexto 
 Trabaje con tres archivos de datos principales:
-##steam_games:## Este archivo nos proporciona informacion sobre distintos videojuegos dentro de la plataforma, 
+
+_**steam_games:**_ Este archivo nos proporciona informacion sobre distintos videojuegos dentro de la plataforma, 
 incluyendo titulos, generos, desarroladores, precios de productos, entre otros.
 
-##user_reviews:## Este contiene reseñas de usuarios sobre diferentes juegos. 
+_**user_reviews:**_ Este contiene reseñas de usuarios sobre diferentes juegos. 
+
+_**user_items**_: Este contiene detalles sobre los juegos que los usuarios poseen.
+
 
 
 
