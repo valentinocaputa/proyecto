@@ -16,6 +16,18 @@ _**user_reviews:**_ Este contiene reseñas de usuarios sobre diferentes juegos.
 
 _**user_items**_: Este contiene detalles sobre los juegos que los usuarios poseen.
 
+# Transformaciones 
+ Antes de poder extraer valor de estos datos, tuve que someterlos a un proceso de ETL, 
+ este proceso es esencial para limpiar, transformar y preparar los datos para analizarlos posteriormente.
+
+ _**extraccion:**_Comence cargando los archivos para poder entender cada columna y el tipo de datos que contenia. :heavy_check_mark:
+
+_**transformacion:**_ Realice una transformacion de los datos, eliminando duplicados, tratando valores nulos, y 
+realizando conversiones de tipos cuando fue necesario. :heavy_check_mark:
+
+_**carga:**_ Una vez limpios y transformados, cargue estos datos en una estructura mas adecuada para su analisis y posterior implementacion,
+en mi caso fue esencial pasar estos archivos ya con el proceso de etl realizado a formato de tipo parquet para poder subirlo a github y que
+render me los tome ya que quedaban muy grandes de tamaño. :heavy_check_mark:
 
 
 
