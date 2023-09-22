@@ -30,6 +30,7 @@ _**carga:**_ Una vez limpios y transformados, cargue estos datos en una estructu
 en mi caso fue esencial pasar estos archivos ya con el proceso de etl realizado a formato de tipo parquet para poder subirlo a github y que
 render me los tome ya que quedaban muy grandes de tamaño. :heavy_check_mark:
 
+# Feature Engineering 
 Una vez realizado el etl, con mis datos limpios, procedi a hacer el proceso de **feature engineering**, donde tuve que crear analisis de sentimiento y 
 varias funciones mas que se pidieron, una vez realizado todo tuve que crear una **API** local que me permita interactuar con las funciones realizadas con los datos, 
 utilice **render** para levantar un servicio web en linea, donde cualquier persona puede interactuar con los datos y obtener informacion.:boom:
